@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c3b453-eeae-4738-8c98-952b107c7943" name="Changes" comment="test commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_11_2023_13_52__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_11_2023_13_52__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airport/BaggageManagement/bookingRegistration/FlightSearch/Flights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airport/BaggageManagement/bookingRegistration/FlightSearch/Flights.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airport/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airport/Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="13c3b453-eeae-4738-8c98-952b107c7943" name="Changes" comment="17.41" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701447716425</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="17.41">
+      <option name="closed" value="true" />
+      <created>1701448914977</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701448914977</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +150,7 @@
     <MESSAGE value="18:14" />
     <MESSAGE value="добавил восклицание" />
     <MESSAGE value="test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+    <MESSAGE value="17.41" />
+    <option name="LAST_COMMIT_MESSAGE" value="17.41" />
   </component>
 </project>
