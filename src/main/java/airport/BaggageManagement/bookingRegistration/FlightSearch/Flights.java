@@ -14,5 +14,5 @@ public class Flights {
     public String airport = "KBP - Boryspil International Airport";
 
     private int q = 63;
-    private int q = 633333;
+    private int qq = 633333;
 }
