@@ -6,4 +6,8 @@ public class Flights {
     public String employyesNew;
 
     public String ff;
+
+    public int d = 3;
+    public String superFunny = "SuperProjectFunny";
+
 }
