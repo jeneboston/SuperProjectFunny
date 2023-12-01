@@ -11,4 +11,6 @@ public class Flights {
     public String superFunny = "SuperProjectFunny";
     public String superProjectFunny2 = "SuperProjectFunny2";
 
+    public String airport = "KBP - Boryspil International Airport";
+
 }
