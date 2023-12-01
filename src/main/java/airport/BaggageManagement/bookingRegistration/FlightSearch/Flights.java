@@ -9,5 +9,6 @@ public class Flights {
 
     public int d = 3;
     public String superFunny = "SuperProjectFunny";
+    public String superProjectFunny2 = "SuperProjectFunny2";
 
 }
