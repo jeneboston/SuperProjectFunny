@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c3b453-eeae-4738-8c98-952b107c7943" name="Changes" comment="17.41">
+    <list default="true" id="13c3b453-eeae-4738-8c98-952b107c7943" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/OlgaVersionAirportProject/AirFlightType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OlgaVersionAirportProject/FlightDescribtion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OlgaVersionAirportProject/PassangerFlights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OlgaVersionAirportProject/TZ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_11_2023_13_52__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_11_2023_13_52__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airport/BaggageManagement/bookingRegistration/FlightSearch/Flights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airport/BaggageManagement/bookingRegistration/FlightSearch/Flights.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -31,7 +36,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
