@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c3b453-eeae-4738-8c98-952b107c7943" name="Changes" comment="">
+    <list default="true" id="13c3b453-eeae-4738-8c98-952b107c7943" name="Changes" comment="2312071913">
       <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Aircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Flight.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/FlightScheduleSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Types.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/baggage/Bag.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/baggage/BaggageSystem.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/booking/BookingSystem.java" afterDir="false" />
@@ -164,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701448914977</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2312071913">
+      <option name="closed" value="true" />
+      <created>1701969220340</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701969220340</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +196,7 @@
     <MESSAGE value="добавил восклицание" />
     <MESSAGE value="test commit" />
     <MESSAGE value="17.41" />
-    <option name="LAST_COMMIT_MESSAGE" value="17.41" />
+    <MESSAGE value="2312071913" />
+    <option name="LAST_COMMIT_MESSAGE" value="2312071913" />
   </component>
 </project>
