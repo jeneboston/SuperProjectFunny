@@ -1,22 +1,29 @@
 package airport.airtraffic.airtraffic;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Aircraft boeing747 = new Aircraft("747", "Пассажирский", 416, 987000, 913, 7240);
+        Scanner scanner = new Scanner(System.in);
 
-        Flight flight1 = new Flight("ABC123", false, false, boeing747);
+        System.out.print("Введите номер рейса: ");
+        String flightNumber = scanner.nextLine();
 
-        FlightScheduleSystem scheduleSystem = new FlightScheduleSystem();
+        System.out.print("Введите город отправления: ");
+        String departureCity = scanner.nextLine();
 
-        scheduleSystem.addFlight(flight1);
+        System.out.print("Введите город назначения: ");
+        String destinationCity = scanner.nextLine();
 
-        Aircraft aircraftOnFlight = scheduleSystem.getFlight().get(0).getAircraft();
+        System.out.print("Был ли рейс задержан? (true/false): ");
+        boolean delayed = scanner.nextBoolean();
 
-        System.out.println("Модель самолета: " + aircraftOnFlight.getModel());
-        System.out.println("Тип самолета: " + aircraftOnFlight.getTypeOfAircraft());
-        System.out.println("Вместимость: " + aircraftOnFlight.getCapacity() + " пассажиров");
-        System.out.println("Вес: " + aircraftOnFlight.getWeight() + " кг");
-        System.out.println("Максимальная скорость: " + aircraftOnFlight.getMaxSpeed() + " км/ч");
-        System.out.println("Дальность полета: " + aircraftOnFlight.getRange() + " км");
+        System.out.print("Был ли рейс отменен? (true/false): ");
+        boolean cancelled = scanner.nextBoolean();
+
+        Aircraft boeing747 = new Aircraft("747", "Пассажирский", 416, 987000, 913, 7240, 18000, 200000, 0.2);
+        Flight flight = new Flight(flightNumber, departureCity, destinationCity, delayed, cancelled, boeing747);
+
+        System.out.println("Информация о рейсе:\n" + flight);
     }
 }

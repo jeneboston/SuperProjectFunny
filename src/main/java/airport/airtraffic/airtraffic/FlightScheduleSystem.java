@@ -9,24 +9,31 @@ public class FlightScheduleSystem {
     public FlightScheduleSystem() {
         this.flights = new ArrayList<>();
     }
+
     public List<Flight> getFlight() {
         return flights;
     }
+
     public void setFlight(List<Flight> flight) {
         this.flights = flight;
     }
+
     public void addFlight(Flight flight) {
         flights.add(flight);
     }
+
     public void updateFlight(Flight flight) {
+        // TODO: Implement logic to update flight information
     }
+
     public List<Flight> getAllFlights() {
         return new ArrayList<>(flights);
     }
+
     public void handleDelays() {
         for (Flight flight : flights) {
             if (flight.isDelayed()) {
-                System.out.println("Flight " + flight.getFlightNumber() + " is delayed.");
+                System.out.println("Рейс " + flight.getFlightNumber() + " задержан.");
             }
         }
     }
@@ -34,9 +41,8 @@ public class FlightScheduleSystem {
     public void handleCancellations() {
         for (Flight flight : flights) {
             if (flight.isCancelled()) {
-                System.out.println("Flight " + flight.getFlightNumber() + " is cancelled.");
+                System.out.println("Рейс " + flight.getFlightNumber() + " отменен.");
             }
         }
     }
-
 }

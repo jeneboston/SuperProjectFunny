@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c3b453-eeae-4738-8c98-952b107c7943" name="Changes" comment="&#10;2312071913">
-      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Main.java" afterDir="false" />
+    <list default="true" id="13c3b453-eeae-4738-8c98-952b107c7943" name="Changes" comment="19:22">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/CargoAircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/CargoAircraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/MilitaryAircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/MilitaryAircraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/PassengerAircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/PassengerAircraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/PrivateAircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/PrivateAircraft.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Aircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Aircraft.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Flight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/FlightScheduleSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/FlightScheduleSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701969303656</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="19:22">
+      <option name="closed" value="true" />
+      <created>1701969748718</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701969748718</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +221,7 @@
     <MESSAGE value="17.41" />
     <MESSAGE value="2312071913" />
     <MESSAGE value="&#10;2312071913" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;2312071913" />
+    <MESSAGE value="19:22" />
+    <option name="LAST_COMMIT_MESSAGE" value="19:22" />
   </component>
 </project>

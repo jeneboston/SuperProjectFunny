@@ -1,3 +1,4 @@
+/*
 package AndriiVersionAirportProject.airtraffic;
 
 import airport.airtraffic.airtraffic.Aircraft;
@@ -28,4 +29,4 @@ public class PrivateAircraft extends Aircraft {
                 ", owner='" + owner + '\'' +
                 '}';
     }
-}
+}*/
