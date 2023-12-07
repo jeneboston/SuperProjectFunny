@@ -4,29 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c3b453-eeae-4738-8c98-952b107c7943" name="Changes" comment="2312071913">
-      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Aircraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/FlightScheduleSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/baggage/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/baggage/BaggageSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/booking/BookingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/booking/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/booking/FlightFX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/booking/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/personnel/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/personnel/PersonnelManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/security/SecurityOfficer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/security/SecuritySystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="13c3b453-eeae-4738-8c98-952b107c7943" name="Changes" comment="&#10;2312071913">
+      <change afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/CargoAircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/CargoAircraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/MilitaryAircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/MilitaryAircraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/PassengerAircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/PassengerAircraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/PrivateAircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AndriiVersionAirportProject/airtraffic/PrivateAircraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airport/BaggageManagement/bookingRegistration/FlightSearch/Flights.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airport/aircraffic/aircraftTypes/Aircraft.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airport/testAirport/TestAirport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Aircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Aircraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/FlightScheduleSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airport/airtraffic/airtraffic/FlightScheduleSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +73,26 @@
       <recent name="airport.airtraffic" />
       <recent name="AndriiVersionAirportProject.airtraffic" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="airport.airtraffic.airtraffic.Main" />
+      <module name="SuperProjectFunny" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="airport.airtraffic.airtraffic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -172,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701969220340</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&#10;2312071913">
+      <option name="closed" value="true" />
+      <created>1701969303656</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701969303656</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +208,7 @@
     <MESSAGE value="test commit" />
     <MESSAGE value="17.41" />
     <MESSAGE value="2312071913" />
-    <option name="LAST_COMMIT_MESSAGE" value="2312071913" />
+    <MESSAGE value="&#10;2312071913" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;2312071913" />
   </component>
 </project>

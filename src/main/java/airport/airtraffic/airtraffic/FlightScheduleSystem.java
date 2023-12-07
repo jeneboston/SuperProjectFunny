@@ -9,27 +9,20 @@ public class FlightScheduleSystem {
     public FlightScheduleSystem() {
         this.flights = new ArrayList<>();
     }
-
     public List<Flight> getFlight() {
         return flights;
     }
-
     public void setFlight(List<Flight> flight) {
         this.flights = flight;
     }
-
     public void addFlight(Flight flight) {
         flights.add(flight);
     }
-
     public void updateFlight(Flight flight) {
-        // Реализуйте логику обновления информации о рейсе
     }
-
     public List<Flight> getAllFlights() {
         return new ArrayList<>(flights);
     }
-
     public void handleDelays() {
         for (Flight flight : flights) {
             if (flight.isDelayed()) {
@@ -46,5 +39,4 @@ public class FlightScheduleSystem {
         }
     }
 
-    //TODO Создать файл текстовой файл с расписанием рейсов
 }

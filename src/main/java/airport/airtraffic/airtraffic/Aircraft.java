@@ -16,31 +16,24 @@ public class Aircraft {
         this.maxSpeed = maxSpeed;
         this.range = range;
     }
-
     public void setModel(String model) {
         this.model = model;
     }
-
     public String getModel() {
         return model;
     }
-
     public String getTypeOfAircraft() {
         return typeOfAircraft;
     }
-
     public int getCapacity() {
         return capacity;
     }
-
     public double getWeight() {
         return weight;
     }
-
     public double getMaxSpeed() {
         return maxSpeed;
     }
-
     public double getRange() {
         return range;
     }
