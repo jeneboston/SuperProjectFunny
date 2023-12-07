@@ -1,6 +1,8 @@
 package AndriiVersionAirportProject.airtraffic;
 
-public class MilitaryAircraft extends Aircraft{
+import airport.airtraffic.airtraffic.Aircraft;
+
+public class MilitaryAircraft extends Aircraft {
     private String mission;
 
     public MilitaryAircraft(String model, String typeOfAircraft, int capacity, double weight, double maxSpeed, double range, String mission) {

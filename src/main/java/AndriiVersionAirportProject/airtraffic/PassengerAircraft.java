@@ -1,5 +1,7 @@
 package AndriiVersionAirportProject.airtraffic;
 
+import airport.airtraffic.airtraffic.Aircraft;
+
 public class PassengerAircraft extends Aircraft {
     private int numberOfSeats;
 

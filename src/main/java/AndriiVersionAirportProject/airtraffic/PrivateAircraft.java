@@ -1,6 +1,8 @@
 package AndriiVersionAirportProject.airtraffic;
 
-public class PrivateAircraft extends Aircraft{
+import airport.airtraffic.airtraffic.Aircraft;
+
+public class PrivateAircraft extends Aircraft {
     private String owner;
 
     public PrivateAircraft(String model, String typeOfAircraft, int capacity, double weight, double maxSpeed, double range, String owner) {
