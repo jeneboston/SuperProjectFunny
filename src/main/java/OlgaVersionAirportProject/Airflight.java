@@ -1,37 +1,40 @@
 package OlgaVersionAirportProject;
 
-public class Aircraft { //для пассажирских, грузовых, частных и военных самолетов
-    TypeOfAircraft typeOfAircraft;
-    String model;
+public class Airflight { //для пассажирских, грузовых, частных и военных самолетов
+    private TypeOfAircraft typeOfAircraft;
+    private String model;
 
-    int lifeTime; //Срок службы
-    int runwayLength; //Длина взлётно-посадочной полосы
-    int length; //
-    int width;
-    int  height;
-    int cargoLength ;
-    int cargoWidth; //Ширина грузового отсека
-    int cargoHeight;
-    int maxRangeWithLoad; //Дальность полета при максимальной нагрузке
-    int ferryRange;  //Перегоночная дальность
-    int cruiseSpeed; //Крейсерская скорость
-    int maxSpeed;
-    int maxTakeoffWeight; //Максимальный взлетный вес
-    int maxPayload; //Максимальная полезная нагрузка
-    int maxFuelWeight; //Максимальный вес топлива
-    int passengerCapacity;  // вместимость
-    int crewTeam;
+    private String owner_AirflightCompany;
 
-    public Aircraft(TypeOfAircraft typeOfAircraft, String model,
-                    int lifeTime, int runwayLength, int length,
-                    int width, int height, int cargoLength,
-                    int cargoWidth, int cargoHeight, int maxRangeWithLoad,
-                    int ferryRange, int cruiseSpeed, int maxSpeed,
-                    int maxTakeoffWeight, int maxPayload, int maxFuelWeight,
-                    int passengerCapacity, int crewTeam)
+    private int lifeTime; //Срок службы
+    private int runwayLength; //Длина взлётно-посадочной полосы
+    private int length; //
+    private int width;
+    private int  height;
+    private int cargoLength ;
+    private int cargoWidth; //Ширина грузового отсека
+    private int cargoHeight;
+    private int maxRangeWithLoad; //Дальность полета при максимальной нагрузке
+    private int ferryRange;  //Перегоночная дальность
+    private int cruiseSpeed; //Крейсерская скорость
+    private int maxSpeed;
+    private int maxTakeoffWeight; //Максимальный взлетный вес
+    private int maxPayload; //Максимальная полезная нагрузка
+    private int maxFuelWeight; //Максимальный вес топлива
+    private int passengerCapacity;  // вместимость
+    private int crewTeam;
+
+    public Airflight(TypeOfAircraft typeOfAircraft, String model, String owner_AirflightCompany,
+                     int lifeTime, int runwayLength, int length,
+                     int width, int height, int cargoLength,
+                     int cargoWidth, int cargoHeight, int maxRangeWithLoad,
+                     int ferryRange, int cruiseSpeed, int maxSpeed,
+                     int maxTakeoffWeight, int maxPayload, int maxFuelWeight,
+                     int passengerCapacity, int i, int i1, int i2, int i3, int i4)
     {
         this.typeOfAircraft = typeOfAircraft;
         this.model = model;
+        this.owner_AirflightCompany=owner_AirflightCompany;
         this.lifeTime = lifeTime;
         this.runwayLength = runwayLength;
         this.length = length;
@@ -51,15 +54,24 @@ public class Aircraft { //для пассажирских, грузовых, ч�
         this.crewTeam = crewTeam;
     }
 
-    public Aircraft(String s, int i, int lifeTime, int runwayLength, int length, TypeOfAircraft typeOfAircraft) {
+    public Airflight(String s, int i, int lifeTime, int runwayLength, int length, TypeOfAircraft typeOfAircraft) {
     }
 
     public TypeOfAircraft getTypeOfAircraft() {
         return typeOfAircraft;
     }
 
+
     public void setTypeOfAircraft(String typeOfAircraft) {
         this.typeOfAircraft = TypeOfAircraft.valueOf(typeOfAircraft);
+    }
+
+    public String getOwner_AirflightCompany() {
+        return owner_AirflightCompany;
+    }
+
+    public void setOwner_AirflightCompany(String owner_AirflightCompany) {
+        this.owner_AirflightCompany = owner_AirflightCompany;
     }
 
     public String getModel() {
@@ -209,8 +221,9 @@ public class Aircraft { //для пассажирских, грузовых, ч�
     @Override
     public String toString() {
         return "Aircraft{" +
-                "typeOfAircraft='" + typeOfAircraft + '\'' +
+                "typeOfAircraft=" + typeOfAircraft +
                 ", model='" + model + '\'' +
+                ", owner_AirflightCompany='" + owner_AirflightCompany + '\'' +
                 ", lifeTime=" + lifeTime +
                 ", runwayLength=" + runwayLength +
                 ", length=" + length +
@@ -220,7 +233,7 @@ public class Aircraft { //для пассажирских, грузовых, ч�
                 ", cargoWidth=" + cargoWidth +
                 ", cargoHeight=" + cargoHeight +
                 ", maxRangeWithLoad=" + maxRangeWithLoad +
-                ", rerryRange=" + ferryRange +
+                ", ferryRange=" + ferryRange +
                 ", cruiseSpeed=" + cruiseSpeed +
                 ", maxSpeed=" + maxSpeed +
                 ", maxTakeoffWeight=" + maxTakeoffWeight +

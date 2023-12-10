@@ -1,37 +1,23 @@
 package OlgaVersionAirportProject;
 
-public class CharterAircraft extends Aircraft {
+public class CharterAircraft extends Airflight {
 
-    public CharterAircraft(String typeOfAircraft, String model, int lifeTime,
-                           int runwayLength, int length, int width,
-                           int height, int cargoLength, int cargoWidth,
-                           int cargoHeight, int maxRangeWithLoad, int ferryRange,
-                           int cruiseSpeed, int maxSpeed, int maxTakeoffWeight,
-                           int maxPayload, int maxFuelWeight, int passengerCapacity,
-                           int crewTeam) {
-        super(TypeOfAircraft.valueOf(typeOfAircraft), model, lifeTime, runwayLength, length, width, height,
-                cargoLength, cargoWidth, cargoHeight, maxRangeWithLoad, ferryRange,
-                cruiseSpeed, maxSpeed, maxTakeoffWeight, maxPayload, maxFuelWeight,
-                passengerCapacity, crewTeam);
+
+    public CharterAircraft(TypeOfAircraft typeOfAircraft, String model,
+                           String owner_AirflightCompany, int lifeTime,
+                           int runwayLength, int length, int width, int height,
+                           int cargoLength, int cargoWidth, int cargoHeight,
+                           int maxRangeWithLoad, int ferryRange, int cruiseSpeed,
+                           int maxSpeed, int maxTakeoffWeight, int maxPayload,
+                           int maxFuelWeight, int passengerCapacity) {
+        super(typeOfAircraft, model, owner_AirflightCompany, lifeTime, runwayLength,
+                length, width, height, cargoLength, cargoWidth, cargoHeight,
+                maxRangeWithLoad, ferryRange, cruiseSpeed, maxSpeed,
+                maxTakeoffWeight, maxPayload, maxFuelWeight, passengerCapacity, 7, 7, 7, 7, 7);
     }
 
     @Override
     public String toString() {
-        return "CharterAircraft{" +
-                "typeOfAircraft='" + typeOfAircraft + '\'' +
-                ", model='" + model + '\'' +
-                ", runwayLength=" + runwayLength +
-                ", cargoLength=" + cargoLength +
-                ", cargoWidth=" + cargoWidth +
-                ", cargoHeight=" + cargoHeight +
-                ", maxRangeWithLoad=" + maxRangeWithLoad +
-                ", ferryRange=" + ferryRange +
-                ", cruiseSpeed=" + cruiseSpeed +
-                ", maxTakeoffWeight=" + maxTakeoffWeight +
-                ", maxPayload=" + maxPayload +
-                ", maxFuelWeight=" + maxFuelWeight +
-                ", passengerCapacity=" + passengerCapacity +
-                ", crewTeam=" + crewTeam +
-                '}';
+        return "CharterAircraft{}";
     }
 }
